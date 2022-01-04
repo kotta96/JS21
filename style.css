@@ -1,0 +1,45 @@
+h1 {
+    padding:0px 15px;
+    margin:0px 0px;
+    background-color:#333;
+    color:white;
+}
+ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color: #333; /* Setter bakgrunnsfarge */
+}
+li {
+    float:left /* Setter listene vev siden av hverandre fra venstre */
+}
+li a {
+    display:block; /* */
+    color:white; /* Setter hvit tekst */
+    text-align:center; /* Sentrere teksten i midten av boksen */
+    padding:10px 30px; /* 10px over og under tekst, 15 px på venstre og høyre*/
+    text-decoration: none; /* Fjerner linje under tekst på nav */
+}
+a:hover {
+    background-color:rgb(5, 65, 5);
+}
+.divA {
+    border-style:solid;
+    margin:20px 0px 0px 0px;
+    width:500px;
+    height:200px;
+}
+img {
+    margin: 20px 0px 0px 65px;
+    border-style:solid;
+    padding:5px;
+}
+p {
+    margin-left:175px;
+}
+.divB {
+    border-style:solid;
+    margin:20px 0px 0px 0px;
+    width:500px;
+}
